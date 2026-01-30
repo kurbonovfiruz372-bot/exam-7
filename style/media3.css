@@ -1,0 +1,8 @@
+@media(max-width: 500px){
+    .start{
+        display: none;
+    }
+    .start2 p{
+    display: none;
+    }
+}
