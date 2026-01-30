@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-/* TOP */
+
 .top {
   background: #ffffff;
   padding: 14px 40px;
@@ -59,7 +59,7 @@
   max-width: 420px;
 }
 
-/* INFO */
+
 .info {
   background: #ffffff;
   padding: 80px;
