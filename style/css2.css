@@ -1,17 +1,66 @@
+
 *{
     margin: 0;
 }
 
+.start{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.otd{
+    display: flex;
+     align-items: center;
+}
+button{
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 15px;
+    width: 180px;
+    height: 30px;
+   margin-left: 10px;
+}
+.start2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.od{
+    display: none;
+}
+.start3{
+    display: flex;
+    
+    margin: 50px 0px;
+}
+.start3 p{
+    margin-left: 64px;
+}
+.start3 a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 2px;
+
+}
+select{
+    background-color: white;
+    border: 1px solid white;
+}
 .top {
-  background: #ffffff;
+  background: white;
   padding: 14px 40px;
   display: flex;
   align-items: center;
   gap: 30px;
 }
-
-.logo {
-  font-weight: 700;
+.pend{
+margin: ;
 }
 
 .phone {
@@ -20,22 +69,20 @@
 
 .bbtn {
   background: #34b36b;
-  color: #ffffff;
+  color: white;
   padding: 10px 18px;
   border-radius: 24px;
 }
-
-
-.hero {
+.pstart {
   display: flex;
   align-items: center;
   gap: 60px;
   padding: 60px 80px;
-  background: #eef3f6;
+  background: #eff4f7;
 }
 
 .txt {
-  max-width: 520px;
+  max-width: 500px;
 }
 .txt h1 {
   font-size: 42px;
@@ -49,7 +96,7 @@
 .btn {
   margin-top: 26px;
   background: #34b36b;
-  color: #ffffff;
+  color: white;
   padding: 14px 34px;
   border-radius: 28px;
   display: inline-block;
@@ -60,17 +107,17 @@
 }
 
 
-.info {
-  background: #ffffff;
+.h1 {
+  background: white;
   padding: 80px;
 }
 
-.info h2 {
+.h1 h2 {
   font-size: 32px;
   margin-bottom: 40px;
 }
 
-.info-item {
+.sered {
   display: flex;
   gap: 20px;
   
@@ -78,22 +125,138 @@
   flex-direction: column;
 }
 
-.line {
+.xat {
   width: 40px;
   height: 2px;
-  background: #34b36b;
+  background-color: #34b36b;
   margin-top: 10px;
   margin-right: 20px;
 }
 
 
 
-.info-item p {
-  
+.cered p {
   color: #5b6b7a;
 }
 .box{
     display: flex;
     flex-direction: row;
 }
-
+.pend{
+    background-color: #272727;
+    width: 90%;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.os{
+background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 15px;
+    width: 180px;
+    height: 30px;
+    margin-left: 0px;
+}
+.lev p{
+    background-color: white;
+    color: #8D979F;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 169px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.prav p{
+    background-color: white;
+    color: #8D979F;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 169px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.cered{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+a{
+    color: #34b36b;
+}
+.end{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    justify-content: center;
+}
+.vend{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.vend p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.nakones{
+    display: flex;
+    gap: 60px;
+}
+.end{
+    background-color: #3BB96D;
+    width: 100%;
+    height: 50vh;
+}
+.kor{
+    display: flex;
+   width: 90%;
+   gap: 20px;
+   justify-content: center;
+   margin-bottom: 200px;
+}
+.pox{
+    box-shadow: 0px 0px 2px black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.h2{
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+.i{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.odam{
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+  gap: 20px;
+}
+.rost{
+  width: 470px;
+  height: 100px;
+}
+.rost h2,p,h3{
+  margin-bottom: 20px;
+}
+.bodam{
+  margin-left: 60px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.tam{
+  margin-left: 70px;
+}
